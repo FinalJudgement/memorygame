@@ -1,0 +1,33 @@
+header {
+  text-align: center;
+  font-size: 30px;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+#check-match {
+  min-height: 50px;
+}
+#container > #score {
+  font-size: 35px;
+  background-color: rgb(153, 236, 153);
+}
+#container #grid {
+  width: 680px;
+  height: 510px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid > img {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
