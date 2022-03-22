@@ -65,7 +65,7 @@ img:hover {
   box-shadow: 0 0 15px 15px white;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 1200px) {
   header {
     color: #876488;
     text-align: center;
